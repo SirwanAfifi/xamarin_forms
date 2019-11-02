@@ -32,7 +32,7 @@ public class AutoCompleteEditorRenderer : DataFormRenderer
         if (editor.Property().Name() == "City")
         {
             var autoComplete = editor.EditorView as AutoCompleteTextView;
-            autoComplete.Adapter = new ArrayAdapter(this.Context, TelerikTest.Droid.Resource.Layout.data_form_autocomplete_item, this.items);
+            autoComplete.Adapter = new ArrayAdapter(this.Context, TelerikTest.Droid.Resource.Layout.data_form_autocomplete_item, TelerikTest.Droid.Resource.Id.data_form_autocomplete_item, this.items);
         }
     }
 }

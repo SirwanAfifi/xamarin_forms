@@ -14,7 +14,9 @@
     <StackLayout>
         <telerikInput:RadDataForm
             x:Name="dataForm" Source="{Binding Person}"
-            FlowDirection="RightToLeft"/>
+            FlowDirection="RightToLeft">
+
+        </telerikInput:RadDataForm>
         <Label Text="{Binding Person.FirstName}" Grid.Row="1" Grid.Column="1" FontSize="Large" />
         <Button Text="ذخیره" Clicked="onSaveClicked"/>
 
