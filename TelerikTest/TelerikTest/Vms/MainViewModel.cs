@@ -1,4 +1,6 @@
 ﻿using System;
+using TelerikTest.Models;
+
 namespace TelerikTest.Vms
 {
     public class MainViewModel

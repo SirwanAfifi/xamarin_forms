@@ -1,7 +1,8 @@
-﻿using Telerik.XamarinForms.Common;
+﻿
+using Telerik.XamarinForms.Common;
 using Telerik.XamarinForms.Common.DataAnnotations;
 
-namespace TelerikTest
+namespace TelerikTest.Models
 {
     public class Person : NotifyPropertyChangedBase
     {

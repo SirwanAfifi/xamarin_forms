@@ -50,34 +50,34 @@
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
     <Reference Include="Telerik.Xamarin.Android.Common">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.Xamarin.Android.Common.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\android\Telerik.Xamarin.Android.Common.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Xamarin.Android.Data">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.Xamarin.Android.Data.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\android\Telerik.Xamarin.Android.Data.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Xamarin.Android.Input">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.Xamarin.Android.Input.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\android\Telerik.Xamarin.Android.Input.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Xamarin.Android.List">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.Xamarin.Android.List.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\android\Telerik.Xamarin.Android.List.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.Xamarin.Android.Primitives">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.Xamarin.Android.Primitives.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\android\Telerik.Xamarin.Android.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Common">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.XamarinForms.Common.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\android\Telerik.XamarinForms.Common.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.DataControls">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.XamarinForms.DataControls.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\android\Telerik.XamarinForms.DataControls.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Input">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.XamarinForms.Input.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\android\Telerik.XamarinForms.Input.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Primitives">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.XamarinForms.Primitives.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\android\Telerik.XamarinForms.Primitives.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.SkiaSharp">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.XamarinForms.SkiaSharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\android\Telerik.XamarinForms.SkiaSharp.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

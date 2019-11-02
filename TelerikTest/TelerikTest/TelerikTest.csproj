@@ -18,22 +18,34 @@
 
   <ItemGroup>
     <Reference Include="Telerik.XamarinForms.Common">
-      <HintPath>..\..\..\Telerik dlls\Telerik.XamarinForms.Common.dll</HintPath>
+      <HintPath>..\..\..\Telerik dlls\android\Telerik.XamarinForms.Common.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Input">
       <HintPath>..\..\..\Telerik dlls\Telerik.XamarinForms.Input.dll</HintPath>
     </Reference>
     <Reference Include="Telerik.XamarinForms.Common">
-      <HintPath>..\..\..\Telerik dlls\android\Telerik.XamarinForms.Common.dll</HintPath>
+      <HintPath>..\..\..\Telerik dlls\Telerik.XamarinForms.Common.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
+    <Reference Include="Telerik.XamarinForms.Common">
+      <HintPath>..\..\..\Telerik dlls\android\Telerik.XamarinForms.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.XamarinForms.Input" />
+    <Reference Include="Telerik.XamarinForms.Common">
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\Telerik.XamarinForms.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.XamarinForms.Input">
+      <HintPath>..\..\..\..\..\..\Downloads\Telerik dlls\Telerik.XamarinForms.Input.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Vms\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Telerik Classes\CustomRadAutoCompleteDataForm.cs" />
     <Compile Remove="Vms\CustomRadAutoCompleteDataForm.cs" />
+    <Compile Remove="Telerik Classes\CityPicker.cs" />
+    <Compile Remove="Models\City.cs" />
   </ItemGroup>
 </Project>

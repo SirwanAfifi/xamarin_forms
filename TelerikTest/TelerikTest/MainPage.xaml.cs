@@ -1,7 +1,6 @@
 ﻿using System;
 using Telerik.XamarinForms.Input;
-using TelerikTest.Telerik_Classes;
-using TelerikTest.Vms;
+using TelerikTest.Models;
 using Xamarin.Forms;
 
 namespace TelerikTest
