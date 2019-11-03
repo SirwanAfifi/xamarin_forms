@@ -9,7 +9,7 @@ namespace TelerikTest.Models
 
         private string firstName;
         [DisplayOptions(Header = "نام")]
-        [NonEmptyValidator("نام الزامی است")]
+        //[NonEmptyValidator("نام الزامی است")]
         public string FirstName
         {
             get { return this.firstName; }
@@ -25,7 +25,7 @@ namespace TelerikTest.Models
 
         private string lastName;
         [DisplayOptions(Header = "نام خانوادگی")]
-        [NonEmptyValidator("نام خانوادگی الزامی است")]
+        //[NonEmptyValidator("نام خانوادگی الزامی است")]
         public string LastName
         {
             get { return this.lastName; }
@@ -41,7 +41,7 @@ namespace TelerikTest.Models
 
         private string city;
         [DisplayOptions(Header = "شهر")]
-        [NonEmptyValidator("شهر الزامی است")]
+        //[NonEmptyValidator("شهر الزامی است")]
         public string City
         {
             get { return this.city; }
