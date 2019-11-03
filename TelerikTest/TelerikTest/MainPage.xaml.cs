@@ -20,7 +20,6 @@ namespace TelerikTest
 
             if (sourceItem.City != null)
             {
-
             }
         }
     }

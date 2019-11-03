@@ -4,21 +4,40 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
-             xmlns:viewModels="clr-namespace:TelerikTest.Vms" mc:Ignorable="d"
+             xmlns:viewModels="clr-namespace:TelerikTest.Vms" xmlns:conv="clr-namespace:TelerikTest" mc:Ignorable="d"
              x:Class="TelerikTest.MainPage">
 
      <ContentPage.BindingContext>
         <viewModels:MainViewModel/>
     </ContentPage.BindingContext>
 
+    <ContentPage.Resources>
+        <conv:IsNullConverter x:Key="isNullConverter"/>
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Style.Triggers>
+              <MultiTrigger TargetType="Button">
+                    <MultiTrigger.Conditions>
+                      <BindingCondition  Binding="{Binding Person.FirstName, Converter={StaticResource isNullConverter}}"
+                                  Value="true" />
+                      <BindingCondition  Binding="{Binding Person.LastName, Converter={StaticResource isNullConverter}}"
+                                  Value="true" />
+                      <BindingCondition  Binding="{Binding Person.City, Converter={StaticResource isNullConverter}}"
+                                  Value="true" />
+                    </MultiTrigger.Conditions>
+                    <Setter Property="IsEnabled" Value="True" />
+                </MultiTrigger>
+            </Style.Triggers>
+        </Style>
+    </ContentPage.Resources>
+
     <StackLayout>
         <telerikInput:RadDataForm
             x:Name="dataForm" Source="{Binding Person}"
-            FlowDirection="RightToLeft">
+            FlowDirection="RightToLeft" ValidationMode="Immediate">
 
         </telerikInput:RadDataForm>
         <Label Text="{Binding Person.FirstName}" Grid.Row="1" Grid.Column="1" FontSize="Large" />
-        <Button Text="ذخیره" Clicked="onSaveClicked"/>
+        <Button Text="ذخیره" Clicked="onSaveClicked" Style="{StaticResource Key=MyButtonStyle}" IsEnabled="false"/>
 
     </StackLayout>
 
